@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-    background: #dde1e7;
+    background: #dde1e;
     width: 320px;
-    height: 550px;
+    height: 1150px;
     border-radius: .5em;
     box-shadow: -3px -3px 7px #ffffff73,
                 2px 2px 5px rgba(94, 104, 121, 0.288);
