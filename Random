@@ -1,0 +1,16 @@
+import random
+a = random.randint(1, 100)
+def ran():
+    s = int(input('Enter random number: '))
+    if s == a:
+        print("Nice")
+    elif s >= a:
+        print("Меньше")
+        ran()
+    elif s <= s:
+        print('Больше')
+        ran()
+    else:
+        print("Again")
+        ran()
+ran()
